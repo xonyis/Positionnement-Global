@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* color */
+.vert {
+    background: lightgreen;
+    margin: auto;
+}
+.orange { 
+    background-color: orange;
+}
+.bleu {
+    background-color: lightblue;
+}
+.darkBlue {
+    background: darkblue;
+}
+.jaune{
+    background: yellow;
+}
+.separator {
+    width: 100%;
+    height: 10em;
+}
+
+.warpper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40em;
+    background: #000;
+    position: relative;
+}
+/* ====================== */
+
+/* No position : */
+#green {
+    width: 20em;
+    height: 10em;
+    padding: 5em;
+
+}
+
+#blue {
+    margin: auto;
+    padding: 2.5em;
+}
+
+#orange {
+    padding: 2.5em;
+    margin: auto;
+}
+/* ======================= */
+
+/* Relative  */
+
+#greenRel {
+    position: relative;
+    width: 20em;
+    height: 10em;
+    padding: 3em;
+
+}
+
+#blueRel {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 10em;
+    left: 7em;
+    
+}
+
+#orangeRel {
+    position: relative;
+    width: 20em;
+    height: 5em;
+    bottom: 7.5em;
+    right: 100px;
+}
+
+/* ========================= */
+
+/* ABSOLUTE 1 */
+
+#greenAbs {
+    position: relative;
+    width: 30em;
+    height: 10em;
+    padding: 2em;
+    margin: auto;
+
+}
+
+#blueAbs {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+#orangeAbs {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 35%;
+    top: 15em;
+}
+
+/* ========================= */
+
+/* ABSOLUTE 2 */
+
+#greenAbs2 {
+    width: 10em;
+    height: 10em;
+    padding: 2em;
+    margin: auto;
+
+}
+
+#blueAbs2 {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+
+}
+
+
+#darkBlueAbs2 {
+    position: absolute;
+    width: 95%;
+    height: 5em;
+    top: 0;
+    left: 35px;
+}
+
+#orangeAbs2 {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 60%;
+    top: 30em;
+}
+
+/* ========================= */
+
+/* carre 1*/
+
+#darkBlueSqr {
+    position: relative;
+    width: 29em;
+    height: 29em;
+    margin: auto;
+    padding: 4em ;
+}
+
+#greenSqr {
+    position: absolute;
+    width: 12.5em;
+    height: 12.5em;
+
+}
+
+#blueSqr {
+    position: absolute;
+    width: 12.5em;
+    height: 12.5em;
+    left: 52.5%;
+
+}
+
+#orangeSqr {
+    position: absolute;
+    width: 12.5em;
+    height: 12.5em;
+    top: 50%;
+}
+
+#yellowSqr {
+    position: absolute;
+    width: 12.5em;
+    height: 12.5em;
+    left: 52.5%;
+    top: 50%;
+}
+
+/* ========================= */
+
+/* carre 2 */
+
+#darkBlueSqr2 {
+    position: relative;
+    width: 29em;
+    height: 29em;
+    margin: auto;
+    padding: 4em ;
+}
+
+#greenSqr2 {
+    position: absolute;
+    width: 12.5em;
+    height: 12.5em;
+
+}
+
+#blueSqr2 {
+    background: rgba(173, 216, 230, 0.7);
+    position: absolute;
+    width: 12.5em;
+    height: 12.5em;
+    left: 20%;
+    z-index: 2;
+    top: 20%;
+}
+
+#orangeSqr2 {
+    position: absolute;
+    width: 12.5em;
+    height: 12.5em;
+    top: 44.7%;
+    left: 44.7%;
+    z-index: 1;
+}
+
+#yellowSqr2 {
+    position: absolute;
+    width: 12.5em;
+    height: 12.5em;
+    left: 52.5%;
+    top: 50%;
+}
